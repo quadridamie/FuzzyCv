@@ -1,0 +1,51 @@
+
+capture_2016-03-86_01-01-31.jpg
+***************************************************************
+ Details: 
+Hue Range: 1.0-170.0
+ Resulting Hue: 169.0
+Saturation Range: 158.0-249.0
+ Resulting Saturation: 91.0
+Value Range: 75.0-140.0
+ Resulting Value: 65.0
+***************************************************************
+capture_2016-03-86_01-02-57.jpg
+***************************************************************
+ Details: 
+Hue Range: 4.0-170.0
+ Resulting Hue: 166.0
+Saturation Range: 158.0-249.0
+ Resulting Saturation: 91.0
+Value Range: 75.0-195.0
+ Resulting Value: 120.0
+***************************************************************
+capture_2016-03-86_01-04-43.jpg
+***************************************************************
+ Details: 
+Hue Range: 4.0-170.0
+ Resulting Hue: 166.0
+Saturation Range: 158.0-249.0
+ Resulting Saturation: 91.0
+Value Range: 75.0-195.0
+ Resulting Value: 120.0
+***************************************************************
+capture_2016-03-86_01-06-03.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-136.0
+ Resulting Hue: 123.0
+Saturation Range: 150.0-248.0
+ Resulting Saturation: 98.0
+Value Range: 65.0-139.0
+ Resulting Value: 74.0
+***************************************************************
+capture_2016-03-86_01-11-36.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-136.0
+ Resulting Hue: 123.0
+Saturation Range: 150.0-248.0
+ Resulting Saturation: 98.0
+Value Range: 65.0-139.0
+ Resulting Value: 74.0
+***************************************************************

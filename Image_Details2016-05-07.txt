@@ -1,0 +1,291 @@
+
+capture_2016-05-07_15-34-34.jpg
+***************************************************************
+ Details: 
+Hue Range: 21.0-73.0
+ Resulting Hue: 52.0
+Saturation Range: 27.0-157.0
+ Resulting Saturation: 130.0
+Value Range: 146.0-218.0
+ Resulting Value: 72.0
+***************************************************************
+capture_2016-05-07_15-34-41.jpg
+***************************************************************
+ Details: 
+Hue Range: 21.0-73.0
+ Resulting Hue: 52.0
+Saturation Range: 27.0-157.0
+ Resulting Saturation: 130.0
+Value Range: 146.0-218.0
+ Resulting Value: 72.0
+***************************************************************
+capture_2016-05-07_15-35-22.jpg
+***************************************************************
+ Details: 
+Hue Range: 21.0-73.0
+ Resulting Hue: 52.0
+Saturation Range: 27.0-157.0
+ Resulting Saturation: 130.0
+Value Range: 146.0-218.0
+ Resulting Value: 72.0
+***************************************************************
+capture_2016-05-07_15-36-45.jpg
+***************************************************************
+ Details: 
+Hue Range: 21.0-73.0
+ Resulting Hue: 52.0
+Saturation Range: 22.0-148.0
+ Resulting Saturation: 126.0
+Value Range: 147.0-186.0
+ Resulting Value: 39.0
+***************************************************************
+capture_2016-05-07_15-36-52.jpg
+***************************************************************
+ Details: 
+Hue Range: 21.0-73.0
+ Resulting Hue: 52.0
+Saturation Range: 82.0-148.0
+ Resulting Saturation: 66.0
+Value Range: 147.0-186.0
+ Resulting Value: 39.0
+***************************************************************
+capture_2016-05-07_15-36-59.jpg
+***************************************************************
+ Details: 
+Hue Range: 21.0-73.0
+ Resulting Hue: 52.0
+Saturation Range: 82.0-148.0
+ Resulting Saturation: 66.0
+Value Range: 147.0-186.0
+ Resulting Value: 39.0
+***************************************************************
+capture_2016-05-07_15-37-39.jpg
+***************************************************************
+ Details: 
+Hue Range: 21.0-73.0
+ Resulting Hue: 52.0
+Saturation Range: 82.0-148.0
+ Resulting Saturation: 66.0
+Value Range: 142.0-186.0
+ Resulting Value: 44.0
+***************************************************************
+capture_2016-05-07_15-37-54.jpg
+***************************************************************
+ Details: 
+Hue Range: 21.0-69.0
+ Resulting Hue: 48.0
+Saturation Range: 53.0-148.0
+ Resulting Saturation: 95.0
+Value Range: 142.0-186.0
+ Resulting Value: 44.0
+***************************************************************
+capture_2016-05-07_15-38-13.jpg
+***************************************************************
+ Details: 
+Hue Range: 21.0-69.0
+ Resulting Hue: 48.0
+Saturation Range: 53.0-135.0
+ Resulting Saturation: 82.0
+Value Range: 153.0-251.0
+ Resulting Value: 98.0
+***************************************************************
+capture_2016-05-07_15-38-28.jpg
+***************************************************************
+ Details: 
+Hue Range: 21.0-69.0
+ Resulting Hue: 48.0
+Saturation Range: 53.0-135.0
+ Resulting Saturation: 82.0
+Value Range: 153.0-251.0
+ Resulting Value: 98.0
+***************************************************************
+capture_2016-05-07_15-39-48.jpg
+***************************************************************
+ Details: 
+Hue Range: 7.0-62.0
+ Resulting Hue: 55.0
+Saturation Range: 70.0-102.0
+ Resulting Saturation: 32.0
+Value Range: 148.0-251.0
+ Resulting Value: 103.0
+***************************************************************
+capture_2016-05-07_15-40-08.jpg
+***************************************************************
+ Details: 
+Hue Range: 7.0-62.0
+ Resulting Hue: 55.0
+Saturation Range: 82.0-111.0
+ Resulting Saturation: 29.0
+Value Range: 143.0-203.0
+ Resulting Value: 60.0
+***************************************************************
+capture_2016-05-07_15-40-51.jpg
+***************************************************************
+ Details: 
+Hue Range: 7.0-62.0
+ Resulting Hue: 55.0
+Saturation Range: 82.0-111.0
+ Resulting Saturation: 29.0
+Value Range: 143.0-203.0
+ Resulting Value: 60.0
+***************************************************************
+capture_2016-05-07_15-45-45.jpg
+***************************************************************
+ Details: 
+Hue Range: 7.0-62.0
+ Resulting Hue: 55.0
+Saturation Range: 82.0-111.0
+ Resulting Saturation: 29.0
+Value Range: 143.0-203.0
+ Resulting Value: 60.0
+***************************************************************
+capture_2016-05-07_15-46-07.jpg
+***************************************************************
+ Details: 
+Hue Range: 7.0-59.0
+ Resulting Hue: 52.0
+Saturation Range: 58.0-131.0
+ Resulting Saturation: 73.0
+Value Range: 139.0-214.0
+ Resulting Value: 75.0
+***************************************************************
+capture_2016-05-07_15-47-27.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-61.0
+ Resulting Hue: 48.0
+Saturation Range: 27.0-162.0
+ Resulting Saturation: 135.0
+Value Range: 119.0-171.0
+ Resulting Value: 52.0
+***************************************************************
+capture_2016-05-07_15-47-32.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-61.0
+ Resulting Hue: 48.0
+Saturation Range: 27.0-162.0
+ Resulting Saturation: 135.0
+Value Range: 119.0-171.0
+ Resulting Value: 52.0
+***************************************************************
+capture_2016-05-07_15-48-13.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-61.0
+ Resulting Hue: 48.0
+Saturation Range: 27.0-162.0
+ Resulting Saturation: 135.0
+Value Range: 119.0-171.0
+ Resulting Value: 52.0
+***************************************************************
+capture_2016-05-07_15-48-38.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-61.0
+ Resulting Hue: 48.0
+Saturation Range: 94.0-206.0
+ Resulting Saturation: 112.0
+Value Range: 138.0-216.0
+ Resulting Value: 78.0
+***************************************************************
+capture_2016-05-07_15-48-52.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-53.0
+ Resulting Hue: 40.0
+Saturation Range: 59.0-201.0
+ Resulting Saturation: 142.0
+Value Range: 138.0-216.0
+ Resulting Value: 78.0
+***************************************************************
+capture_2016-05-07_15-49-22.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-53.0
+ Resulting Hue: 40.0
+Saturation Range: 59.0-201.0
+ Resulting Saturation: 142.0
+Value Range: 138.0-216.0
+ Resulting Value: 78.0
+***************************************************************
+capture_2016-05-07_15-50-14.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-45.0
+ Resulting Hue: 32.0
+Saturation Range: 35.0-96.0
+ Resulting Saturation: 61.0
+Value Range: 142.0-186.0
+ Resulting Value: 44.0
+***************************************************************
+capture_2016-05-07_15-50-19.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-45.0
+ Resulting Hue: 32.0
+Saturation Range: 35.0-96.0
+ Resulting Saturation: 61.0
+Value Range: 142.0-186.0
+ Resulting Value: 44.0
+***************************************************************
+capture_2016-05-07_15-50-54.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-45.0
+ Resulting Hue: 32.0
+Saturation Range: 35.0-96.0
+ Resulting Saturation: 61.0
+Value Range: 142.0-186.0
+ Resulting Value: 44.0
+***************************************************************
+capture_2016-05-07_15-51-08.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-45.0
+ Resulting Hue: 32.0
+Saturation Range: 35.0-96.0
+ Resulting Saturation: 61.0
+Value Range: 142.0-186.0
+ Resulting Value: 44.0
+***************************************************************
+capture_2016-05-07_15-51-39.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-45.0
+ Resulting Hue: 32.0
+Saturation Range: 35.0-96.0
+ Resulting Saturation: 61.0
+Value Range: 142.0-186.0
+ Resulting Value: 44.0
+***************************************************************
+capture_2016-05-07_15-52-06.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-65.0
+ Resulting Hue: 52.0
+Saturation Range: 57.0-92.0
+ Resulting Saturation: 35.0
+Value Range: 140.0-236.0
+ Resulting Value: 96.0
+***************************************************************
+capture_2016-05-07_15-52-15.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-65.0
+ Resulting Hue: 52.0
+Saturation Range: 57.0-92.0
+ Resulting Saturation: 35.0
+Value Range: 140.0-236.0
+ Resulting Value: 96.0
+***************************************************************
+capture_2016-05-07_15-52-28.jpg
+***************************************************************
+ Details: 
+Hue Range: 13.0-65.0
+ Resulting Hue: 52.0
+Saturation Range: 57.0-92.0
+ Resulting Saturation: 35.0
+Value Range: 140.0-236.0
+ Resulting Value: 96.0
+***************************************************************

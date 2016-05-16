@@ -1,0 +1,11 @@
+
+capture_2016-04-30_15-26-18.jpg
+***************************************************************
+ Details: 
+Hue Range: 15.0-99.0
+ Resulting Hue: 84.0
+Saturation Range: 98.0-200.0
+ Resulting Saturation: 102.0
+Value Range: 98.0-189.0
+ Resulting Value: 91.0
+***************************************************************

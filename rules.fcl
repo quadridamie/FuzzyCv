@@ -1,0 +1,53 @@
+FUNCTION_BLOCK decider
+
+VAR_INPUT				// Define input variables
+	Hue	: REAL;
+	Saturation : REAL;
+	Value :	REAL;
+	Volume : REAL;
+ 
+
+VAR_OUTPUT					// Define output variable
+	Acceptability : REAL;
+END_VAR
+
+FUZZIFY Hue
+	TERM High:=
+	TERM Average:=
+	TERM Low:=
+END_FUZZIFY
+	
+FUZZIFY Saturation
+	TERM High:=
+	TERM Average:=
+	TERM Low:=
+END_FUZZIFY
+
+FUZZIFY Value
+	TERM High:=
+	TERM Average:=
+	TERM Low:=
+END_FUZZIFY
+
+FUZZIFY Volume
+	TERM High:=
+	TERM Average:=
+	TERM Low:=
+END_FUZZIFY
+
+DEFUZZIFY Acceptability
+	TERM Xtremely_Acceptable:=
+	TERM Very_Acceptable:=
+	TERM Moderately_Acceptable:=
+	TERM Not_Acceptable:=
+	METHOD : COG;		// Use 'Center Of Gravity' defuzzification method
+	DEFAULT := 0;		// Default value IS 0 (if no rule activates defuzzifier)
+END_DEFUZZIFY
+
+RULEBLOCK No1
+	AND : MIN;			 // Use 'min' for 'and' (also implicit use 'max' for 'or' to fulfill DeMorgan's Law)
+	ACT : MIN;			// Use 'min' activation method
+	ACCU : MAX;			// Use 'max' accumulation method
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK

@@ -1,0 +1,48 @@
+FUNCTION_BLOCK tipper	// Block definition (there may be more than one block per file)
+
+VAR_INPUT				// Define input variables
+	Height : REAL;
+	Velocity : REAL;
+END_VAR
+
+VAR_OUTPUT				// Define output variable
+	Force : REAL;
+END_VAR
+
+FUZZIFY Height			// Fuzzify input variable 'service': {'poor', 'good' , 'excellent'}
+	TERM Small := (0, 1) (100,0.8) (200,0.6) (300,0.4) (400,0.2) (500, 0) (600,0) (700,0) (800,0) (900,0);
+	TERM Medium := (0, 0) (100,0) (200,0.2) (300,0.4) (400,0.6) (500, 0.8) (600,1) (700,0.8) (800,0.6) (900,0.4);
+	TERM Large := (0, 0) (100,0) (200,0) (300,0) (400,0) (500, 0.2) (600,0.4) (700,0.6) (800,0.8) (900,1);
+END_FUZZIFY
+
+FUZZIFY Velocity			// Fuzzify input variable 'food': { 'rancid', 'delicious' }
+	TERM Down := (-30, 1) (-25, 1) (-20,1) (-15,0.5)(-10,0) (-5,0) (0,0) (5,0) (10,0) (15,0) (20,0) (25,0) (30,0);
+	TERM Downsmall := (-30, 0) (-25, 0) (-20,0) (-15,0.5)(-10,1) (-5,0.5) (0,0) (5,0) (10,0) (15,0) (20,0) (25,0) (30,0);
+	TERM Zero := (-30, 0) (-25, 0) (-20,0) (-15,0) (-10,0) (-5,0.5) (0,1) (5,0.5) (10,0) (15,0) (20,0) (25,0) (30,0);
+	TERM Upsmall := (-30, 0) (-25, 0) (-20,0) (-15,0) (-10,0) (-5,0) (0,0) (5,0.5) (10,1) (15,0.5) (20,0) (25,0) (30,0);
+	TERM Up := (-30, 0) (-25, 0) (-20,0) (-15,0)(-10,0) (-5,0) (0,0) (5,0) (10,0) (15,0.5) (20,1) (25,1) (30,1);
+END_FUZZIFY
+
+DEFUZZIFY Force			// Defzzzify output variable 'tip' : {'cheap', 'average', 'generous' }
+    TERM Down := (-30, 1) (-25, 1) (-20,1) (-15,0.5)(-10,0) (-5,0) (0,0) (5,0) (10,0) (15,0) (20,0) (25,0) (30,0);
+	TERM Downsmall := (-30, 0) (-25, 0) (-20,0) (-15,0.5)(-10,1) (-5,0.5) (0,0) (5,0) (10,0) (15,0) (20,0) (25,0) (30,0);
+	TERM Zero := (-30, 0) (-25, 0) (-20,0) (-15,0) (-10,0) (-5,0.5) (0,1) (5,0.5) (10,0) (15,0) (20,0) (25,0) (30,0);
+	TERM Upsmall := (-30, 0) (-25, 0) (-20,0) (-15,0) (-10,0) (-5,0) (0,0) (5,0.5) (10,1) (15,0.5) (20,0) (25,0) (30,0);
+	TERM Up := (-30, 0) (-25, 0) (-20,0) (-15,0)(-10,0) (-5,0) (0,0) (5,0) (10,0) (15,0.5) (20,1) (25,1) (30,1);
+	METHOD : COG;		// Use 'Center Of Gravity' defuzzification method
+	DEFAULT := 0;		// Default value IS 0 (if no rule activates defuzzifier)
+END_DEFUZZIFY
+
+RULEBLOCK No1
+	AND : MIN;			// Use 'min' for 'and' (also implicit use 'max' for 'or' to fulfill DeMorgan's Law)
+	ACT : MIN;			// Use 'min' activation method
+	ACCU : MAX;			// Use 'max' accumulation method
+
+	RULE 1 : IF (Height IS Large AND Velocity IS Down) OR (Height IS Medium AND Velocity IS Downsmall) OR (Height IS Small AND Velocity IS Zero)   THEN Force IS Zero;
+	RULE 2 : IF (Height IS Large AND Velocity IS Downsmall) OR (Height IS Medium AND Velocity IS Zero) OR (Height IS Small AND Velocity IS Upsmall)OR (Height IS Small AND Velocity IS Up)   THEN Force IS Downsmall;
+    RULE 3 : IF (Height IS Large AND Velocity IS Zero) OR (Height IS Large AND Velocity IS Upsmall) OR (Height IS Large AND Velocity IS Up)OR (Height IS Medium AND Velocity IS Upsmall)OR (Height IS Medium AND Velocity IS Up)  THEN Force IS Down;
+    RULE 4 : IF (Height IS Small  AND Velocity IS Downsmall) OR (Height IS Medium AND Velocity IS Down) THEN Force IS Upsmall;
+    RULE 5 : IF (Height IS Small AND Velocity IS Down) THEN Force IS Up;  
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK
